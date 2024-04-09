@@ -15,11 +15,12 @@ spec:
       interval: 1m
   values:
     indexHtml: |-
-      <html>
+      <!DOCTYPE html>
+        <html>
         <head>
           <title>My Custom Page</title>
         </head>
         <body>
           <h1>Welcome to my custom NGINX page</h1>
         </body>
-      </html>
+        </html>
